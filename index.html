@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sinop Houses — Аренда коттеджей у моря в Сухуме | Отдых в Абхазии 2026</title>
+    <meta name="description" content="Снять коттедж в Сухуме у моря (район Синоп). Sinop Houses — новые уютные дома в 5 минутах от пляжа через дендропарк. Кондиционер, Wi-Fi, кухня, мангал. Идеально для семейного отдыха." />
+    
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sinop Houses — Коттеджи у моря в Сухуме" />
+    <meta property="og:description" content="Уютные эко-домики в Синопе (Сухум). Закрытая территория, 5 минут до пляжа, дендропарк. Бронируйте без посредников!" />
+    <meta property="og:image" content="https://sinop-houses.ru/assets/main.webp" />
+    <meta property="og:url" content="https://sinop-houses.ru" />
+    <meta property="og:site_name" content="Sinop Houses" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://sinop-houses.ru/" />
+    <meta name="robots" content="index, follow" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sinop Houses — Коттеджи у моря в Сухуме" />
+    <meta name="twitter:description" content="Аренда новых коттеджей в Сухуме (Синоп). Море, дендропарк, тишина. Отдых в Абхазии 2026." />
+    <meta name="keywords" content="Sinop Houses, коттеджи Сухум, снять домик в Абхазии, отдых в Синопе, жилье у моря Сухум, аренда коттеджа Абхазия 2026, гостевой дом Синоп" />
+    <meta name="twitter:image" content="https://sinop-houses.ru/assets/main.webp" />
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ivory: '#F5F2E9',
+              pine: '#2D4A3E',
+              terracotta: '#B05E3C',
+              cinnamon: '#8B4513',
+              cream: '#FAF8F5',
+              charcoal: '#2C2C2C',
+              graphite: '#4A4A4A'
+            },
+            fontFamily: {
+              display: ['"Playfair Display"', 'serif'],
+              body: ['Montserrat', 'sans-serif']
+            },
+            animation: {
+              'fade-up': 'fadeUp 0.8s ease-out forwards'
+            },
+            keyframes: {
+              fadeUp: {
+                '0%': { opacity: '0', transform: 'translateY(30px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+    <script type="module" src="js/app.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VacationRental",
+        "name": "Sinop Houses",
+        "description": "Новые уютные коттеджи в Сухуме (район Синоп). Закрытая база отдыха, уникальная природа и всего 5 минут до пляжа через легендарный дендропарк.",
+        "image": [
+          "https://sinop-houses.ru/assets/main.webp",
+          "https://sinop-houses.ru/assets/file.(1).webp"
+        ],
+        "url": "https://sinop-houses.ru/",
+        "telephone": "+79409003340",
+        "email": "sinop-houses@yandex.ru",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Кодорское шоссе, 31В",
+          "addressLocality": "Сухум",
+          "addressRegion": "Абхазия",
+          "postalCode": "384900",
+          "addressCountry": "GE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.9833,
+          "longitude": 41.0500
+        },
+        "priceRange": "5000-6000 RUB",
+        "starRating": {
+          "@type": "Rating",
+          "ratingValue": "5.0"
+        },
+        "amenityFeature": [
+          { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Кондиционер", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Парковка", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Мангальная зона", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Кухня", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "5 минут до моря", "value": true }
+        ]
+      }
+    </script>
+    <style>
+      .nav-link { position: relative; }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: currentColor;
+        transition: width 0.3s ease;
+      }
+      .nav-link:hover::after { width: 100%; }
+      .card-lux { transition: all 0.4s ease; }
+      .card-lux:hover { transform: translateY(-6px); box-shadow: 0 25px 50px rgba(45,74,62,0.15); }
+      .btn-terracotta { background: linear-gradient(135deg, #B05E3C 0%, #8B4513 100%); }
+      .btn-terracotta:hover { background: linear-gradient(135deg, #8B4513 0%, #6B3510 100%); }
+      #jarvis-window { opacity: 1; transform: scale(1); }
+      #jarvis-window.opacity-0 { opacity: 0; }
+      #jarvis-window.scale-90 { transform: scale(0.9); }
+    </style>
+  </head>
+  <body class="bg-ivory text-charcoal font-body antialiased">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-ivory/95 backdrop-blur-md border-b border-pine/10">
+      <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <img src="/logo.png" alt="Sinop Houses" class="h-10 w-auto object-contain" />
+          <span class="font-display text-xl font-medium tracking-wide text-pine">Sinop Houses</span>
+        </a>
+        
+        <!-- Nav -->
+        <nav class="hidden md:flex items-center gap-10 text-sm font-medium text-charcoal/60">
+          <a href="#about" class="nav-link hover:text-pine transition-colors">О нас</a>
+          <a href="#collection" class="nav-link hover:text-pine transition-colors">Эко‑домики</a>
+          <a href="#location" class="nav-link hover:text-pine transition-colors">Локация</a>
+        </nav>
+
+        <a href="#booking" class="btn-terracotta text-white px-6 py-2.5 rounded-full text-sm font-medium transition-all hover:shadow-lg">
+          Забронировать
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:pt-32 md:pb-16 bg-gradient-to-b from-ivory to-cream">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div class="order-2 lg:order-1 animate-fade-up">
+            <h1 id="hero_title" class="font-display text-4xl md:text-5xl lg:text-6xl font-medium leading-tight text-pine mb-8">
+              Sinop Houses — уютные коттеджи в Сухуме
+            </h1>
+            <p id="hero_subtitle" class="text-charcoal/60 text-lg leading-relaxed mb-10">
+              Новые уютные коттеджи в Сухуме, на закрытой базе отдыха в микрорайоне Синоп — идеальное место для отпуска в Абхазии. 5 минут до пляжа через дендропарк.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="#booking" class="btn-terracotta text-white px-8 py-3.5 rounded-full font-medium transition-all hover:shadow-lg">
+                Забронировать
+              </a>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2 animate-fade-up">
+            <div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-pine/10">
+              <img id="hero_image" alt="Коттеджи Sinop Houses с видом на сад" class="w-full h-full object-cover" 
+                   src="/assets/main.webp" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="advantages" class="py-12 md:py-16">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-8">
+          <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-2">Почему Sinop Houses</h2>
+          <p class="text-charcoal/60 max-w-2xl mx-auto text-sm">Три эко‑домика с приватной атмосферой рядом с морем</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="card-lux bg-white rounded-3xl p-8 border border-pine/5 shadow-sm animate-fade-up">
+            <div class="w-12 h-12 rounded-2xl bg-terracotta/10 flex items-center justify-center mb-5">
+              <i data-lucide="trees" class="w-6 h-6 text-terracotta"></i>
+            </div>
+            <h3 class="font-display text-xl font-medium text-pine">Локация для прогулок</h3>
+            <p class="text-sm text-charcoal/60 mt-3 leading-relaxed">5 минут до пляжа через Сухумский дендропарк. Рядом зелень и морской воздух.</p>
+          </div>
+
+          <div class="card-lux bg-white rounded-3xl p-8 border border-pine/5 shadow-sm animate-fade-up">
+            <div class="w-12 h-12 rounded-2xl bg-terracotta/10 flex items-center justify-center mb-5">
+              <i data-lucide="home" class="w-6 h-6 text-terracotta"></i>
+            </div>
+            <h3 class="font-display text-xl font-medium text-pine">Комфорт как дома</h3>
+            <p class="text-sm text-charcoal/60 mt-3 leading-relaxed">Кухня, кондиционер, Wi‑Fi, парковка. Продуманная планировка для отдыха и сна.</p>
+          </div>
+
+          <div class="card-lux bg-white rounded-3xl p-8 border border-pine/5 shadow-sm animate-fade-up">
+            <div class="w-12 h-12 rounded-2xl bg-terracotta/10 flex items-center justify-center mb-5">
+              <i data-lucide="shield-check" class="w-6 h-6 text-terracotta"></i>
+            </div>
+            <h3 class="font-display text-xl font-medium text-pine">Тишина и приватность</h3>
+            <p class="text-sm text-charcoal/60 mt-3 leading-relaxed">Закрытая территория, аккуратные материалы и спокойная атмосфера — без лишней суеты.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 md:py-16 bg-cream">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl shadow-pine/10">
+            <img id="about_image" alt="Зона отдыха и природа Sinop Houses" class="w-full h-full object-cover"
+                 src="/assets/file.(1).webp" />
+          </div>
+          <div>
+            <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-4">Отдых в гармонии с природой</h2>
+            <p id="about_text" class="text-charcoal/60 leading-relaxed mb-6">
+              Тихая зелёная территория, уникальная природа и всё, что нужно для комфортного отдыха рядом с морем.
+              <br><br>
+              Рядом: автобусная остановка, аптека, магазины. Кафе и рестораны с пляжными вечеринками. Детский парк "Marnero kids" — настоящий рай для малышей. В 10 минутах знаменитые на всю Абхазию песочные VIP-пляжи MARNERO и МОККО.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="py-12 md:py-16 scroll-mt-24 bg-cream/50">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-8">
+          <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-2">Эко‑домики и интерьер</h2>
+          <p class="text-charcoal/60 max-w-xl mx-auto text-sm">Посмотрите, как выглядят домики внутри</p>
+        </div>
+        
+        <div id="accommodations_list" class="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
+          <div class="col-span-full py-20 text-center text-charcoal/40">Загрузка...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infrastructure Section -->
+    <section id="infrastructure" class="py-12 md:py-16 bg-cream scroll-mt-24">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-8">
+          <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-2">Удобства и Территория</h2>
+        </div>
+        
+        <div id="infrastructure_list" class="grid grid-cols-2 md:grid-cols-4 gap-6">
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="utensils" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Общая кухня</div>
+             <div class="text-xs text-charcoal/60 mt-1">Плита, посуда, микроволновка</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="flame" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Мангал</div>
+             <div class="text-xs text-charcoal/60 mt-1">Зона отдыха и барбекю</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="wifi" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Wi-Fi</div>
+             <div class="text-xs text-charcoal/60 mt-1">На всей территории</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="parking-circle" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Парковка</div>
+             <div class="text-xs text-charcoal/60 mt-1">Открытая парковка рядом</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="shirt" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Прачечная</div>
+             <div class="text-xs text-charcoal/60 mt-1">Стиральная машина</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="croissant" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Завтраки</div>
+             <div class="text-xs text-charcoal/60 mt-1">Можно заказать в домик</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="car" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Трансфер</div>
+             <div class="text-xs text-charcoal/60 mt-1">За доп. плату</div>
+           </div>
+           <div class="bg-white p-6 rounded-2xl text-center border border-pine/5 shadow-sm">
+             <i data-lucide="trees" class="w-8 h-8 mx-auto text-terracotta mb-3"></i>
+             <div class="font-medium text-pine">Дендропарк</div>
+             <div class="text-xs text-charcoal/60 mt-1">Прогулка к морю</div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-12 md:py-16 scroll-mt-24">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-8">
+          <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-2">Забронировать</h2>
+          <p class="text-charcoal/60 text-sm">Выберите даты и оформите бронирование</p>
+        </div>
+        
+        <!-- Booking.com Style Widget (Themed) -->
+        <div class="max-w-md mx-auto bg-terracotta p-1 rounded-lg shadow-xl border border-terracotta/10">
+            <div class="space-y-1">
+                <!-- Cottage Type Selector -->
+                <div class="relative">
+                    <div id="widget-cottage-trigger" class="bg-white p-3 rounded-[4px] flex items-center gap-3 cursor-pointer hover:bg-gray-50 transition-colors">
+                        <i data-lucide="home" class="w-5 h-5 text-charcoal/60"></i>
+                        <div class="flex-1">
+                            <div class="font-medium text-charcoal text-sm" id="widget-cottage-text">Любой коттедж</div>
+                            <div class="text-xs text-charcoal/60 truncate">Выберите тип домика</div>
+                        </div>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-charcoal/40 transition-transform" id="widget-cottage-arrow"></i>
+                    </div>
+
+                    <div id="widget-cottage-dropdown" class="hidden absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-xl border border-gray-100 p-2 z-30">
+                        <div class="space-y-1">
+                            <button class="w-full text-left px-3 py-2 rounded-md hover:bg-pine/5 text-sm text-charcoal transition-colors" onclick="selectCottage('Любой коттедж')">Любой коттедж</button>
+                            <button class="w-full text-left px-3 py-2 rounded-md hover:bg-pine/5 text-sm text-charcoal transition-colors" onclick="selectCottage('Коттедж King-size')">Коттедж King-size</button>
+                            <button class="w-full text-left px-3 py-2 rounded-md hover:bg-pine/5 text-sm text-charcoal transition-colors" onclick="selectCottage('Коттедж Twin')">Коттедж Twin</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dates Trigger -->
+                <div id="widget-dates-trigger" class="bg-white p-3 rounded-[4px] flex items-center gap-3 cursor-pointer hover:bg-gray-50 transition-colors">
+                    <i data-lucide="calendar-days" class="w-5 h-5 text-charcoal/60"></i>
+                    <div class="flex-1">
+                        <div class="font-medium text-charcoal text-sm" id="widget-dates-text">Заезд - Выезд</div>
+                    </div>
+                </div>
+
+                <!-- Guests Trigger -->
+                <div class="relative">
+                    <div id="widget-guests-trigger" class="bg-white p-3 rounded-[4px] flex items-center gap-3 cursor-pointer hover:bg-gray-50 transition-colors">
+                        <i data-lucide="user" class="w-5 h-5 text-charcoal/60"></i>
+                        <div class="flex-1">
+                            <div class="font-medium text-charcoal text-sm" id="widget-guests-text">2 взрослых · 0 детей</div>
+                            <div class="text-xs text-charcoal/60">1 номер</div>
+                        </div>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-charcoal/40 transition-transform" id="widget-guests-arrow"></i>
+                    </div>
+
+                    <!-- Guest Selector Dropdown -->
+                    <div id="widget-guests-dropdown" class="hidden absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-xl border border-gray-100 p-4 z-20">
+                         <div class="flex items-center justify-between mb-4">
+                            <span class="text-sm font-medium text-charcoal">Взрослые</span>
+                            <div class="flex items-center gap-3">
+                                <button class="w-8 h-8 rounded-full border border-pine/20 flex items-center justify-center text-pine hover:bg-pine/5" onclick="changeGuestWidget('adults', -1)">-</button>
+                                <span id="widget-count-adults" class="w-4 text-center text-sm font-medium">2</span>
+                                <button class="w-8 h-8 rounded-full border border-pine/20 flex items-center justify-center text-pine hover:bg-pine/5" onclick="changeGuestWidget('adults', 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-charcoal">Дети</span>
+                            <div class="flex items-center gap-3">
+                                <button class="w-8 h-8 rounded-full border border-pine/20 flex items-center justify-center text-pine hover:bg-pine/5" onclick="changeGuestWidget('children', -1)">-</button>
+                                <span id="widget-count-children" class="w-4 text-center text-sm font-medium">0</span>
+                                <button class="w-8 h-8 rounded-full border border-pine/20 flex items-center justify-center text-pine hover:bg-pine/5" onclick="changeGuestWidget('children', 1)">+</button>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-4 border-t border-gray-100">
+                             <label class="flex items-center gap-3 cursor-pointer">
+                                 <input type="checkbox" id="widget-extra-bed" class="w-5 h-5 rounded border-gray-300 text-pine focus:ring-pine">
+                                 <div>
+                                     <div class="text-sm font-medium text-charcoal">Доп. место</div>
+                                     <div class="text-xs text-charcoal/60">Раскладная кровать</div>
+                                 </div>
+                             </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Button -->
+                <button id="widget-search-btn" class="w-full bg-pine text-white py-3 rounded-[4px] font-medium text-base hover:bg-pine/90 transition-colors mt-1 active:scale-[0.98] shadow-lg">
+                    Забронировать
+                </button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Modal (Hidden) -->
+    <div id="calendar-modal" class="fixed inset-0 z-[70] flex items-center justify-center px-4 opacity-0 pointer-events-none transition-opacity duration-300">
+        <div id="calendar-backdrop" class="absolute inset-0 bg-charcoal/60 backdrop-blur-sm"></div>
+        <div class="bg-white w-full max-w-lg rounded-3xl p-4 md:p-6 shadow-2xl relative z-10 transform scale-95 transition-transform duration-300 h-[80vh] flex flex-col">
+            <button id="calendar-close" class="absolute top-4 right-4 text-charcoal/40 hover:text-charcoal z-20">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <h3 class="font-display text-xl font-medium text-pine mb-4 pr-8">Выберите даты</h3>
+            <div id='calendar' class="flex-1 overflow-y-auto"></div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-12 md:py-16 bg-cream scroll-mt-24">
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="text-center mb-8">
+          <h2 class="font-display text-2xl md:text-3xl font-medium text-pine mb-2">Вопросы и ответы</h2>
+          <p class="text-charcoal/60 text-sm">Коротко о самом важном</p>
+        </div>
+
+        <div class="space-y-4">
+          <details class="bg-white rounded-2xl p-6 border border-pine/5">
+            <summary class="cursor-pointer font-medium text-charcoal">Где вы находитесь?</summary>
+            <p class="mt-3 text-sm text-charcoal/70 leading-relaxed">Сухум, микрорайон Синоп, ул. Кодорское шоссе, 31В. До пляжа — около 5 минут через дендропарк.</p>
+          </details>
+          <details class="bg-white rounded-2xl p-6 border border-pine/5">
+            <summary class="cursor-pointer font-medium text-charcoal">Во сколько заезд и выезд?</summary>
+            <p class="mt-3 text-sm text-charcoal/70 leading-relaxed">Заезд после 14:00, выезд до 12:00. Ранний заезд/поздний выезд — по договорённости.</p>
+          </details>
+          <details class="bg-white rounded-2xl p-6 border border-pine/5">
+            <summary class="cursor-pointer font-medium text-charcoal">Можно с детьми и питомцами?</summary>
+            <p class="mt-3 text-sm text-charcoal/70 leading-relaxed">Дети — да. Питомцы — по договорённости (уточните перед бронированием).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contacts" class="py-12 md:py-16 scroll-mt-24 bg-cream/60">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="bg-white/90 rounded-3xl border border-pine/10 shadow-sm p-6 sm:p-8 lg:p-10">
+          <div class="grid lg:grid-cols-2 gap-10 items-start">
+          <!-- Text side -->
+          <div>
+            <h2 class="font-display text-3xl md:text-4xl font-medium text-pine mb-3">Контакты</h2>
+            <p class="text-charcoal/60 text-lg leading-relaxed mb-6">Выберите удобный способ связи — мессенджер. Мы поможем с датами, трансфером и вопросами по проживанию.</p>
+            
+            <!-- Big primary contact card -->
+            <div class="bg-white rounded-3xl p-6 border border-pine/5 shadow-sm">
+              <div class="flex items-start gap-4">
+                <div class="w-11 h-11 rounded-2xl bg-terracotta/10 flex items-center justify-center flex-shrink-0">
+                  <i data-lucide="map-pin" class="w-5 h-5 text-terracotta"></i>
+                </div>
+                <div>
+                  <div class="text-sm text-charcoal/60 mb-1">Адрес</div>
+                  <a href="https://yandex.ru/maps/?text=Сухум,+ул.+Кодорское+шоссе,+31В" target="_blank" id="contact_address" class="block font-medium text-charcoal hover:text-terracotta transition-colors">Сухум, ул. Кодорское шоссе, 31В</a>
+                  <div class="text-sm text-charcoal/60 mt-1">Микрорайон Синоп • 5 минут до пляжа через дендропарк</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Messengers column -->
+          <div class="bg-cream rounded-3xl p-6 sm:p-8 border border-pine/10">
+            <h3 class="font-display text-2xl font-medium text-pine mb-2">Мессенджеры</h3>
+            <p class="text-sm text-charcoal/60 mb-6">Напишите нам в мессенджер — ответим в ближайшее время.</p>
+
+            <div class="space-y-3">
+              <a id="whatsapp_link" href="#" target="_blank" class="group flex items-center justify-between gap-4 bg-white rounded-2xl px-4 py-4 border border-pine/5 hover:border-terracotta/40 hover:bg-terracotta/5 transition-colors">
+                <div class="flex items-center gap-4">
+                  <div class="w-11 h-11 rounded-2xl bg-terracotta/10 flex items-center justify-center">
+                    <i data-lucide="message-circle" class="w-5 h-5 text-terracotta"></i>
+                  </div>
+                  <div>
+                    <div class="font-medium text-charcoal">WhatsApp</div>
+                    <div class="text-sm text-charcoal/60">Чат в WhatsApp</div>
+                  </div>
+                </div>
+                <span class="text-xs text-charcoal/40 group-hover:text-terracotta/80">Открыть</span>
+              </a>
+
+              <a id="telegram_link" href="#" target="_blank" class="group flex items-center justify-between gap-4 bg-white rounded-2xl px-4 py-4 border border-pine/5 hover:border-terracotta/40 hover:bg-terracotta/5 transition-colors">
+                <div class="flex items-center gap-4">
+                  <div class="w-11 h-11 rounded-2xl bg-terracotta/10 flex items-center justify-center">
+                    <i data-lucide="send" class="w-5 h-5 text-terracotta"></i>
+                  </div>
+                  <div>
+                    <div class="font-medium text-charcoal">Telegram</div>
+                    <div class="text-sm text-charcoal/60">Чат в Telegram</div>
+                  </div>
+                </div>
+                <span class="text-xs text-charcoal/40 group-hover:text-terracotta/80">Открыть</span>
+              </a>
+
+              <button id="max_trigger" type="button" class="group flex items-center justify-between gap-4 bg-white rounded-2xl px-4 py-4 border border-pine/5 hover:border-terracotta/40 hover:bg-terracotta/5 transition-colors text-left w-full">
+                <div class="flex items-center gap-4">
+                  <div class="w-11 h-11 rounded-2xl bg-terracotta/10 flex items-center justify-center">
+                    <i data-lucide="user-round" class="w-5 h-5 text-terracotta"></i>
+                  </div>
+                  <div>
+                    <div class="font-medium text-charcoal">Max</div>
+                    <div class="text-sm text-charcoal/60">Мессенджер MAX</div>
+                  </div>
+                </div>
+                <span class="text-xs text-charcoal/40 group-hover:text-terracotta/80">Позвать</span>
+              </button>
+
+              <a href="#booking" class="group flex items-center justify-between gap-4 bg-white rounded-2xl px-4 py-4 border border-pine/5 hover:border-terracotta/40 hover:bg-terracotta/5 transition-colors w-full">
+                <div class="flex items-center gap-4">
+                  <div class="w-11 h-11 rounded-2xl bg-terracotta/10 flex items-center justify-center">
+                    <i data-lucide="calendar-check" class="w-5 h-5 text-terracotta"></i>
+                  </div>
+                  <div>
+                    <div class="font-medium text-charcoal">Проверить даты</div>
+                    <div class="text-sm text-charcoal/60">Открыть форму бронирования</div>
+                  </div>
+                </div>
+                <span class="text-xs text-charcoal/40 group-hover:text-terracotta/80">Открыть</span>
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="location" class="py-16 bg-ivory text-charcoal border-t border-pine/10">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-10 text-center md:text-left">
+          <div class="flex flex-col items-center md:items-start">
+          <div class="flex items-center gap-3 mb-6 animate-fade-up">
+              <svg class="w-8 h-8 text-terracotta" viewBox="0 0 40 40" fill="none">
+                <path d="M20 4L4 36H36L20 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M12 28H28" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="20" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <span class="font-display text-xl font-medium">Sinop Houses</span>
+            </div>
+            <p class="text-charcoal/60 text-sm">Коттеджи в Сухуме, Абхазия</p>
+          </div>
+          
+          <div>
+            <h4 class="font-display font-medium mb-6 text-lg">Контакты</h4>
+            <address class="not-italic text-sm text-charcoal/70 space-y-3">
+              <p>Сухум, мкр. Синоп</p>
+              <a href="mailto:booking@sinop-houses.ru" class="block hover:text-terracotta transition-colors">booking@sinop-houses.ru</a>
+            </address>
+          </div>
+          
+          <div>
+            <h4 class="font-display font-medium mb-6 text-lg">Навигация</h4>
+            <nav class="text-sm text-charcoal/70 space-y-3">
+              <a href="#about" class="block hover:text-terracotta transition-colors">О нас</a>
+              <a href="#collection" class="block hover:text-terracotta transition-colors">Эко‑домики</a>
+              <a href="#booking" class="block hover:text-terracotta transition-colors">Бронирование</a>
+            </nav>
+          </div>
+        </div>
+        
+        <div class="mt-14 pt-8 border-t border-pine/10 text-center text-xs text-charcoal/40">
+          &copy; 2026 Sinop Houses
+        </div>
+      </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 z-[60] flex items-center justify-center px-4 opacity-0 pointer-events-none transition-opacity duration-300">
+        <!-- Backdrop -->
+        <div id="modal-backdrop" class="absolute inset-0 bg-charcoal/40 backdrop-blur-sm transition-opacity"></div>
+        
+        <!-- Modal Content (Booking.com style) -->
+        <div class="bg-white w-full max-w-md rounded-2xl p-4 shadow-2xl transform scale-95 transition-transform duration-300 relative z-10 border border-pine/10">
+            <button id="modal-close" class="absolute top-4 right-4 text-charcoal/40 hover:text-charcoal transition-colors">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            
+            <h3 class="font-display text-xl font-medium text-pine mb-4">Бронирование</h3>
+
+            <div class="space-y-3">
+                <!-- Location (Read Only) -->
+                <div class="bg-ivory p-4 rounded-xl flex items-center gap-4 border border-pine/5">
+                    <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-terracotta shadow-sm">
+                        <i data-lucide="bed-double" class="w-5 h-5"></i>
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-xs text-charcoal/60 font-medium mb-0.5">Куда</div>
+                        <div class="font-medium text-charcoal text-sm truncate">Sinop Houses, Сухум</div>
+                    </div>
+                </div>
+
+                <!-- Dates -->
+                <div class="bg-ivory p-4 rounded-xl flex items-center gap-4 border border-pine/5">
+                    <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-terracotta shadow-sm">
+                        <i data-lucide="calendar-days" class="w-5 h-5"></i>
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-xs text-charcoal/60 font-medium mb-0.5">Даты</div>
+                        <div class="font-medium text-charcoal text-sm" id="modal-dates">Выберите даты</div>
+                    </div>
+                </div>
+
+                <!-- Guests -->
+                <div class="bg-ivory p-4 rounded-xl flex flex-col gap-4 border border-pine/5 cursor-pointer hover:border-pine/20 transition-colors" id="guests-trigger">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-terracotta shadow-sm">
+                            <i data-lucide="user" class="w-5 h-5"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="text-xs text-charcoal/60 font-medium mb-0.5">Гости</div>
+                            <div class="font-medium text-charcoal text-sm" id="guests-display">2 взрослых, 0 детей</div>
+                        </div>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-charcoal/40 transition-transform" id="guests-arrow"></i>
+                    </div>
+
+                    <!-- Guest Selector (Inside card) -->
+                    <div id="guests-selector" class="hidden pt-4 border-t border-pine/5">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-sm font-medium text-charcoal">Взрослые</span>
+                            <div class="flex items-center gap-3">
+                                <button class="w-8 h-8 rounded-full bg-white border border-pine/10 flex items-center justify-center text-pine hover:bg-pine hover:text-white transition-colors" onclick="changeGuest('adults', -1)">-</button>
+                                <span id="count-adults" class="w-6 text-center text-sm font-medium">2</span>
+                                <button class="w-8 h-8 rounded-full bg-white border border-pine/10 flex items-center justify-center text-pine hover:bg-pine hover:text-white transition-colors" onclick="changeGuest('adults', 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-charcoal">Дети</span>
+                            <div class="flex items-center gap-3">
+                                <button class="w-8 h-8 rounded-full bg-white border border-pine/10 flex items-center justify-center text-pine hover:bg-pine hover:text-white transition-colors" onclick="changeGuest('children', -1)">-</button>
+                                <span id="count-children" class="w-6 text-center text-sm font-medium">0</span>
+                                <button class="w-8 h-8 rounded-full bg-white border border-pine/10 flex items-center justify-center text-pine hover:bg-pine hover:text-white transition-colors" onclick="changeGuest('children', 1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Button -->
+                <button id="btn-whatsapp" class="w-full bg-pine text-white py-4 rounded-xl font-medium text-base hover:bg-pine/90 transition-colors shadow-lg shadow-pine/20 active:scale-[0.98] mt-2 flex items-center justify-center gap-2">
+                    <span>Найти варианты</span>
+                </button>
+            </div>
+            
+            <div class="text-center mt-4">
+                 <button id="btn-email" class="text-charcoal/40 text-xs hover:text-terracotta transition-colors">Отправить заявку на почту</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Widget -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+      <!-- Menu Items -->
+      <div id="chat-menu" class="flex flex-col items-end gap-3 transition-all duration-300 opacity-0 translate-y-4 invisible origin-bottom">
+        <a href="https://t.me/abhazbooking_online" target="_blank" class="flex items-center gap-3 bg-white text-charcoal px-5 py-3 rounded-full shadow-lg border border-pine/5 hover:text-[#0088cc] hover:bg-[#0088cc]/5 transition-all group">
+          <span class="font-medium text-sm">Telegram</span>
+          <i data-lucide="send" class="w-5 h-5 text-[#0088cc] group-hover:scale-110 transition-transform"></i>
+        </a>
+        <a href="https://wa.me/79409003340" target="_blank" class="flex items-center gap-3 bg-white text-charcoal px-5 py-3 rounded-full shadow-lg border border-pine/5 hover:text-[#25D366] hover:bg-[#25D366]/5 transition-all group">
+          <span class="font-medium text-sm">WhatsApp</span>
+          <i data-lucide="message-circle" class="w-5 h-5 text-[#25D366] group-hover:scale-110 transition-transform"></i>
+        </a>
+      </div>
+
+      <!-- Trigger Button -->
+      <button id="chat-trigger" aria-expanded="false" class="bg-pine text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center transform hover:scale-105 active:scale-95">
+        <i id="icon-open" data-lucide="phone" class="w-6 h-6 transition-transform duration-300"></i>
+        <i id="icon-close" data-lucide="x" class="w-6 h-6 hidden transition-transform duration-300 rotate-90"></i>
+      </button>
+    </div>
+
+    <script>lucide.createIcons();</script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: your-username/skyway-repo # ЗАМЕНИТЕ НА ВАШ РЕПОЗИТОРИЙ (например: my-user/my-project)
+  branch: main
+
+media_folder: "public/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "hotels"
+    label: "Объекты (Дома/Отели)"
+    folder: "public/content/hotels"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{title}}"
+    fields:
+      - {label: "Название", name: "title", widget: "string"}
+      - {label: "Цена за сутки", name: "price", widget: "number"}
+      - {label: "Описание", name: "description", widget: "text"}
+      - {label: "Фото", name: "image", widget: "image"}
+      - {label: "Занятые даты", name: "booked_dates", widget: "list", field: {label: "Дата", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}}
+  
+  - name: "settings"
+    label: "Настройки сайта"
+    files:
+      - file: "content/settings.json"
+        label: "Тексты и контакты"
+        name: "settings"
+        format: "json"
+        fields:
+          - {label: "Заголовок (Hero)", name: "hero_title", widget: "string"}
+          - {label: "Подзаголовок (Hero)", name: "hero_subtitle", widget: "text"}
+          - {label: "Заголовок (О нас)", name: "about_title", widget: "string"}
+          - {label: "Текст (О нас)", name: "about_text", widget: "text"}
+          - {label: "Телефон", name: "contact_phone", widget: "string"}
+          - {label: "Email", name: "contact_email", widget: "string"}
+          - {label: "Адрес", name: "contact_address", widget: "string"}
