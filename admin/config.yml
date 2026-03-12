@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/skyway-repo # ЗАМЕНИТЕ НА ВАШ РЕПОЗИТОРИЙ (например: my-user/my-project)
+  repo: sinop-houses/sinop-houses.ru
   branch: main
 
 media_folder: "public/assets/img"
